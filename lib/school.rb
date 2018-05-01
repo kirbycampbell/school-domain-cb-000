@@ -29,4 +29,4 @@ class School
 
 end
 
-school.new("super Dicks School")
+school = School.new("super Dicks School")
