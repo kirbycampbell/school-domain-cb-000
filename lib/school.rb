@@ -3,7 +3,6 @@ class School
   def initialize(name)
     @name = name
     @roster = {}
-    puts name
   end
 
   def roster
@@ -15,7 +14,6 @@ class School
         @roster[grade] = []
       end
     @roster[grade] << name
-    puts @roster
   end
 
   def grade(grade)
@@ -29,6 +27,3 @@ class School
   end
 
 end
-
-school = School.new("super Dicks School")
-school.add_student("Kirby", 18)
