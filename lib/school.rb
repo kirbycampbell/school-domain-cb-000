@@ -28,3 +28,5 @@ class School
   end
 
 end
+
+school.new("super Dicks School")
