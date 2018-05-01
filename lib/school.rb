@@ -30,3 +30,4 @@ class School
 end
 
 school = School.new("super Dicks School")
+school.add_student("Kirby", 18)
